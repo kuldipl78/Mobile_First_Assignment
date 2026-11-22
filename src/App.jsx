@@ -151,7 +151,7 @@ function Dashboard() {
             </button>
             {profileOpen ? (
               <div className="profile-card" role="dialog" aria-label="Account">
-                <strong>Jordan D.</strong>
+                <strong>Kuldip LOhare</strong>
                 <p>This board stays on this device. There is no account to sign in to.</p>
               </div>
             ) : null}
