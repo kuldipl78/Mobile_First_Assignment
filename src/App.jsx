@@ -145,13 +145,13 @@ function Dashboard() {
               aria-haspopup="dialog"
               onClick={() => setProfileOpen((open) => !open)}
             >
-              <span className="avatar" aria-hidden="true">JD</span>
+              <span className="avatar" aria-hidden="true">KL</span>
               <CaretIcon />
               <span className="sr-only">Account menu</span>
             </button>
             {profileOpen ? (
               <div className="profile-card" role="dialog" aria-label="Account">
-                <strong>Kuldip LOhare</strong>
+                <strong>Kuldip Lohare</strong>
                 <p>This board stays on this device. There is no account to sign in to.</p>
               </div>
             ) : null}
