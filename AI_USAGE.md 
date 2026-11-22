@@ -1,0 +1,27 @@
+# AI usage
+
+Chat-GPT AI assistant was used for part of this assessment.
+
+It was used to build the Focus Notes carousel: three slides, previous and next controls, 
+and the active-slide indicators. The rest of the board was reviewed in the browser, including create, 
+edit, delete, filters, and `localStorage`.
+
+## Prompt
+
+Build only the Focus Notes carousel for the FocusBoard dashboard.
+
+Use the three slides from the Figma reference:
+
+1. “Make today count.” — “A little focus goes a long way.” Next up: Design landing page, 62%.
+2. “Small steps, big progress.” — “Keep your workflow in flow.” In progress: Fix navigation, 48%.
+3. “Celebrate the wins.” — “Every completed task moves you forward.” Done: Onboarding copy, 100%.
+
+Requirements:
+- Previous and next buttons that wrap around the slides
+- Indicators that show the active slide and can select a slide
+- Keep the visible slide and the indicators in sync
+- Keyboard support with Left and Right arrow keys
+- Responsive layout so the text and controls are not cut off at 390px, 768px, and 1440px
+- Accessible labels on the controls
+
+Do not rebuild the task list, form, or sidebar. Match the purple card, the white “next up” panel, and the arrow buttons from the design.
