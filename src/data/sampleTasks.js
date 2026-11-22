@@ -12,6 +12,26 @@ export const sampleTasks = [
 ]
 
 export const focusNotes = [
+  {
+    id: 'note-today',
+    index: '01 / 03',
+    title: 'Make today count.',
+    body: 'A little focus goes a long way.',
+    cardLabel: 'Next up',
+    cardTitle: 'Design landing page',
+    progress: 62,
+    tone: 'next',
+  },
+  {
+    id: 'note-steps',
+    index: '02 / 03',
+    title: 'Small steps, big progress.',
+    body: 'Keep your workflow in flow.',
+    cardLabel: 'In progress',
+    cardTitle: 'Fix navigation',
+    progress: 48,
+    tone: 'progress',
+  },
  
   {
     id: 'note-wins',
